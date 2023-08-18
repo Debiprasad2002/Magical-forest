@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hero{
+    width: 100vw;
+    margin: 0 auto;
+    background-image: url('https://images.unsplash.com/photo-1689656966481-043a970b7c76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#hero-heading{
+    color: white;
+    font-size: 50px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+#hero-text{
+    color: white;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    padding-bottom: 30px;
+    line-height: 3;
+
+}
+#hero-btn{
+    background-color: #ff6600;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-size: 20px;    
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+}
+#hero-btn:hover{
+    background-color: #ff4500;
+    color: aqua;
+    transform: scaleY(1.2);
+}
